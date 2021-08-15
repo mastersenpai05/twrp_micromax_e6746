@@ -168,3 +168,22 @@ SHRP_FONP_2 := /sys/devices/virtual/flashlight_core/flashlight/flashlight_torch
 SHRP_FONP_3 := /sys/devices/virtual/flashlight_core/flashlight/flashlight_torch
 SHRP_FLASH := 1 
 SHRP_FLASH_MAX_BRIGHTNESS := 200
+
+INC_IN_REC_ADDON_1 := true
+INC_IN_REC_ADDON_2 := true
+
+# Addons
+SHRP_EXTERNAL_ADDON_PATH := $(DEVICE_PATH)/addon
+SHRP_EXTERNAL_ADDON_1_NAME := "orange state disabler"
+SHRP_EXTERNAL_ADDON_1_INFO := "remove orange state"
+SHRP_EXTERNAL_ADDON_1_FILENAME := "orange_state_disabler_MTK_Only .zip"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "flash me"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Flashed successfully"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+
+SHRP_EXTERNAL_ADDON_2_NAME := "permissiver"
+SHRP_EXTERNAL_ADDON_2_INFO := "Make Selinux Permissive"
+SHRP_EXTERNAL_ADDON_2_FILENAME := "permissiver_v5.zip"
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Flash Me"
+SHRP_EXTERNAL_ADDON_2_SUCCESFUL_TEXT := "Flashed successfully"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
